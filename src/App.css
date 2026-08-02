@@ -1,0 +1,35 @@
+.wip {
+  color: black;
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
+  font-size: 35em;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  font-family: "Opener";
+  span {
+    line-height: 290px;
+  }
+}
+@media (max-width: 700px) {
+  .wip {
+    font-size: 20em;
+    span {
+      line-height: 170px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .wip {
+    font-size: 15em;
+    span {
+      line-height: 130px;
+    }
+  }
+}
+body {
+  font-family: "Monument", sans-serif;
+  color: var(--white);
+  background-color: var(--white);
+}

@@ -1,0 +1,18 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { Nav } from "./comps/Nav/Nav.jsx";
+import "./index.css";
+import App from "./App.jsx";
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <BrowserRouter>
+      <Nav />
+      <App />
+      <div className="wip">
+        <span>WIP</span>
+      </div>
+    </BrowserRouter>
+  </StrictMode>,
+);
