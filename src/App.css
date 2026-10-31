@@ -1,5 +1,5 @@
 .wip {
-  color: black;
+  color: var(--black);
   height: 100dvh;
   overflow: hidden;
   background-color: white;
@@ -30,6 +30,6 @@
 }
 body {
   font-family: "Monument", sans-serif;
-  color: var(--white);
+  color: var(--black);
   background-color: var(--white);
 }

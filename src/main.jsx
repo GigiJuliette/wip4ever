@@ -10,9 +10,6 @@ createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Nav />
       <App />
-      <div className="wip">
-        <span>WIP</span>
-      </div>
     </BrowserRouter>
   </StrictMode>,
 );

@@ -1,0 +1,29 @@
+.wishlist {
+  margin: 20dvh 0;
+  position: relative;
+  z-index: 10;
+  list-style: none;
+  color: white;
+  mix-blend-mode: difference;
+  border-top: 1px solid white;
+  font-size: 1em;
+}
+
+.wishlist a {
+  padding: 20px;
+  cursor: default;
+  border-bottom: 1px solid #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.wishlist a span:nth-child(1) {
+  text-align: right;
+  justify-self: end;
+}
+.wishlist a span:nth-child(2) {
+  display: inline-block;
+  justify-self: start;
+}
+a {
+}

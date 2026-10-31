@@ -7,6 +7,12 @@ import Stairs from "./Stairs";
 
 const items = [
   {
+    link: "/wishlist",
+    text: "wishlist",
+    subtext: "GIFT ME",
+    animatedtext: "✳︎",
+  },
+  {
     link: "/about",
     text: "about",
     subtext: "WHO AM I ?",

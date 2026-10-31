@@ -1,5 +1,9 @@
 function Experiences() {
-  return null;
+  return (
+    <div className="wip">
+      <span>WIP</span>
+    </div>
+  );
 }
 
 export default Experiences;

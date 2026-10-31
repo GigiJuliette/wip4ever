@@ -1,5 +1,9 @@
 function Contact() {
-  return null;
+  return (
+    <div className="wip">
+      <span>WIP</span>
+    </div>
+  );
 }
 
 export default Contact;
