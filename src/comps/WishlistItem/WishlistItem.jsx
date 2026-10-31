@@ -4,6 +4,10 @@ import "./style.css";
 export default function WishlistItem({ setActiveItem }) {
   return (
     <main className="wishlist-container">
+      <span className="wishlist-title">
+        Voici ma liste de souhait pour mon anniversaire et Noël, arrangez-vous
+        entre vous pour pas prendre des trucs en double, bisoux.
+      </span>
       <div className="wishlist" onMouseLeave={() => setActiveItem(null)}>
         {wishlist.map((item, i) => (
           <a
@@ -16,6 +20,7 @@ export default function WishlistItem({ setActiveItem }) {
           >
             <span>{item.title}</span>
             <span>{item.price} EUR</span>
+            <span className="com">{item.com}</span>
           </a>
         ))}
       </div>

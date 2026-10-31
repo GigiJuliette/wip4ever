@@ -37,10 +37,22 @@
 @media (max-width: 700px) {
   .wishlist-link {
     padding: 10px;
+    font-size: 0.7em;
+    gap: 10px;
+    grid-template-columns: 3fr 1fr;
+  }
+  .wishlist-link span:nth-child(2) {
+    justify-self: end;
+  }
+  .wishlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
 .wishlist-link::after {
-  content: "";
+  content: "<3";
   position: absolute;
   background: white;
   width: 100%;
@@ -48,7 +60,23 @@
   top: 100%;
   bottom: 0;
   transition: ease-out 0.1s;
+  color: white;
 }
 .wishlist-link:active::after {
   top: 0;
+}
+.com {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  color: rgb(157, 157, 157);
+  font-size: 0.5em;
+  padding: 0;
+  margin: 0;
+}
+.wishlist-title {
+  max-width: 70%;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 0.7rem;
 }
