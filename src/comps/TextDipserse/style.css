@@ -1,0 +1,46 @@
+.dipserse-list:has(.dipserse:hover) p:not(:hover) {
+  opacity: 0.2;
+  transition: opacity 0.3s ease;
+}
+.dipserse-list:has(.dipserse:hover) .dipserse:not(:hover) {
+  opacity: 0.2;
+  transition: opacity 0.3s ease;
+}
+.dipserse-list {
+  font-size: 2rem;
+  font-family: Hanson;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  gap: 20px;
+}
+.dipserse-list div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  letter-spacing: 5px;
+}
+
+.email-phone {
+  display: none;
+}
+.email-desktop {
+  display: block;
+}
+
+@media (max-width: 764px) {
+  .dipserse-list {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  .dipserse-list div {
+    letter-spacing: 0px;
+  }
+  .email-phone {
+    display: block;
+  }
+  .email-desktop {
+    display: none;
+  }
+}
