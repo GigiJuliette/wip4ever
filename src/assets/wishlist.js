@@ -14,7 +14,7 @@ export const wishlist = [
     price: "325,95",
     src: tabibg,
     link: "https://www.woodchucksato.com/fr/products/woodchucksato-black-cow-leather-tabi-knee-boots-with-8-cm-heel",
-    com: "Temps de livraison assez long",
+    com: "Temps de livraison assez long, prendre du 37",
   },
   {
     title: "DeLonghi Dedica Style Metal",

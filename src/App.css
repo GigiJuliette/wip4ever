@@ -28,8 +28,23 @@
     }
   }
 }
+
 body {
   font-family: "Monument", sans-serif;
   color: var(--black);
   background-color: var(--white);
+}
+
+main {
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+}
+
+.gallery {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
 }
