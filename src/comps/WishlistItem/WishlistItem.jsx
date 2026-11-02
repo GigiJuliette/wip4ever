@@ -5,8 +5,8 @@ export default function WishlistItem({ setActiveItem }) {
   return (
     <main className="wishlist-container">
       <span className="wishlist-title">
-        Voici ma liste de souhait pour mon anniversaire et Noël, arrangez-vous
-        entre vous pour pas prendre des trucs en double, bisoux.
+        Voici ma liste de souhait pour mon anniversaire et Noël, se référer a
+        Lucas pour savoir qui prend quoi, bisoux
       </span>
       <div className="wishlist" onMouseLeave={() => setActiveItem(null)}>
         {wishlist.map((item, i) => (
